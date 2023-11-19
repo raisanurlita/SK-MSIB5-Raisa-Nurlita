@@ -1,0 +1,121 @@
+body{
+	background-color: #F2E3FF;
+}
+
+.banner {
+    background-image: url("./images/banner5.png");
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  nav {
+    background-color: #F2E3FF;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+    color: #92659F;
+    font-weight: bold;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 68, 0, 0);
+  }
+  
+  nav ul {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  nav div img {
+    width: 50px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+    color: #191919;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(255, 68, 0, 0);
+  }
+  
+  nav ul li a:hover {
+    color: #604269;
+    border-bottom: 1px solid #604269;
+  }
+
+  .katalog {
+    background-color: #FFF; 
+    padding: 5px 10px;
+  }
+  .about {
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.about img{
+    height: auto;
+    width: 300px;
+}
+
+.about-text {
+    width: 550px;
+  
+}
+
+.container-about {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h4{
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+
+.about-text p{
+    color: #CA1B6F;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.btn {
+    background: #CA1B6F;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 2px solid #CA1B6F;
+    cursor: pointer;
+}
